@@ -81,7 +81,7 @@ public class Day19_C01_TestNG_Annotations {
 
 
 
-    @Test(priority = 3)
+    @Test(priority = 3, groups = "regression-tests")
     public void test1() throws Exception {
         System.out.println("Test 1");
     }
@@ -97,7 +97,7 @@ public class Day19_C01_TestNG_Annotations {
     public void test4() throws Exception {
         System.out.println("Test 4");
     }
-    @Test(priority = -5)
+    @Test(priority = -5, groups = "regression-tests")
     public void test5() throws Exception {
         System.out.println("Test 5");
     }
